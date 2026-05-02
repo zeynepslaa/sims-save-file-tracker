@@ -1,6 +1,9 @@
 {
   "rewrites": [
-    { "handle": "filesystem" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/worlds", "destination": "/index.html" },
+    { "source": "/worlds/:path*", "destination": "/index.html" },
+    { "source": "/inspiration", "destination": "/index.html" },
+    { "source": "/settings", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" }
   ]
 }
